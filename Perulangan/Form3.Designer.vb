@@ -22,13 +22,25 @@ Partial Class Form3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.Cmb_pola = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
+        '
+        'Cmb_pola
+        '
+        Me.Cmb_pola.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Cmb_pola.FormattingEnabled = True
+        Me.Cmb_pola.Items.AddRange(New Object() {"Pyramid", "Hollow Pyramid", "Inverted Pyramid", "Hollow Inverted Pyramid"})
+        Me.Cmb_pola.Location = New System.Drawing.Point(27, 191)
+        Me.Cmb_pola.Name = "Cmb_pola"
+        Me.Cmb_pola.Size = New System.Drawing.Size(386, 21)
+        Me.Cmb_pola.TabIndex = 3
         '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(441, 402)
+        Me.Controls.Add(Me.Cmb_pola)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
         Me.Name = "Form3"
@@ -37,4 +49,5 @@ Partial Class Form3
         Me.ResumeLayout(False)
 
     End Sub
+    Friend WithEvents Cmb_pola As System.Windows.Forms.ComboBox
 End Class

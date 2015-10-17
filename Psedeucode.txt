@@ -1,0 +1,27 @@
+Bintang :
+1. membuat tempat penyimpanan hasil
+2. proses pada button memiliki perintah untuk memproses pola yang akan digunakan menggunakan perintah "case" dan menampilkan apakah inputan pada "isi_baris" angka atau bukan, dan sudah memilih "pola"
+3. membuat proses pada pola pyramid.
+	a. membuat penyimpanan untuk nilai batas1 dan batas2 dan di definisian jadi satu menjadi batas.
+	b. membuat double luping untuk membuat "spasi" menjadi segitiga siku-siku di bagian kanan dan kiri
+	c. membuat "if" untuk membaca posisi dan output yang di tampilkan "*" dan "spasi"
+4. menyimpan proses di atas dan menampilkannya pada "hasil_pola"
+5. membuat proses pada pola hollow pyramid.
+	a. membuat penyimpanan untuk nilai batas1 dan batas2 dan di definisian jadi satu menjadi batas.
+	b. membuat double luping untuk membuat "spasi" menjadi segitiga siku-siku di bagian kanan dan kiri
+	c. membuat "if" untuk membaca posisi dan output yang di tampilkan "*" dan "spasi"
+	d. membuat "if" lagi di dalam "if(c)" untuk mengisi bagian tengah pyramid dengan "spasi"
+6. menyimpan proses di atas dan menampilkannya pada "hasil_pola"
+7. membuat proses pada pola in inverted pyramid.
+	a. membuat penyimpanan untuk nilai batas1 dengan nilai 0.
+	b. membuat penyimpanan untuk nilai batas2 dengan nilai batas *2
+	c. membuat double luping untuk membuat "spasi" menjadi segitiga siku-siku di bagian kanan dan kiri
+	d. membuat "if" untuk membaca posisi dan output yang di tampilkan "*" dan "spasi"
+8 . menyimpan proses di atas dan menampilkannya pada "hasil_pola"
+9. membuat proses pada pola hollow pyramid.
+	a. membuat penyimpanan untuk nilai batas1 dengan nilai 0.
+	b. membuat penyimpanan untuk nilai batas2 dengan nilai batas *2
+	c. membuat double luping untuk membuat "spasi" menjadi segitiga siku-siku di bagian kanan dan kiri
+	d. membuat "if" untuk membaca posisi dan output yang di tampilkan "*" dan "spasi"
+	e. membuat "if" lagi di dalam "if(d)" untuk mengisi bagian tengah pyramid dengan "spasi"
+10. menyimpan proses di atas dan menampilkannya pada "hasil_pola"
